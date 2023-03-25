@@ -1,0 +1,10 @@
+name: second-workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Start
+        run: echo 'Welcome to the Jungle'
+      - name: End
+        run: echo 'End of the Jungle!'
